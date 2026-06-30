@@ -1,6 +1,7 @@
 #Build Output
 /build/
 /out/
+/.cache/
 
 #Visual Studio
 /.vs/
