@@ -11,8 +11,8 @@
 /.vscode/
 
 #CMake user-local presets
-CmakeUserPresets.json
+CMakeUserPresets.json
 
 #OS junk
-/DS_Store
+.DS_Store
 Thumbs.db

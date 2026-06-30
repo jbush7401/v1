@@ -30,6 +30,8 @@ int main(int argc, char* argv[]) {
 		return -1;
 	}
 
+	SDL_SetRenderVSync(renderer, 1);
+
 	bool running = true;
 	while (running) {
 		// Handle events
@@ -48,5 +50,8 @@ int main(int argc, char* argv[]) {
 		SDL_RenderPresent(renderer);
 	}
 
+	SDL_DestroyRenderer(renderer);
+	SDL_DestroyWindow(window);
+	SDL_Quit();
 	return 0;
 }
