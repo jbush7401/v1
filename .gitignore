@@ -1,0 +1,17 @@
+#Build Output
+/build/
+/out/
+
+#Visual Studio
+/.vs/
+*.user
+
+#VS Code
+/.vscode/
+
+#CMake user-local presets
+CmakeUserPresets.json
+
+#OS junk
+/DS_Store
+Thumbs.db
